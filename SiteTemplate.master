@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SiteTemplate.master.cs" Inherits="SiteTemplate" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+    <!--<asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder> -->
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table width="800px">
+            <tr>
+                <td colspan="2" height="50px" align="center">
+                    상 단 영 역
+                </td>
+            </tr>
+            <tr>
+                <td height="100px" width="200px">
+                    좌 측 영 역
+                </td>
+                <td>
+                    <asp:ContentPlaceHolder id="cphFirstContent" runat="server">
+	                </asp:ContentPlaceHolder><br />
+	                <asp:ContentPlaceHolder id="cphSecondContent" runat="server">
+		                이 내용은 마스터 페이지에서 작성한 <font color="red">기본 콘텐츠</font>입니다.
+	                </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" height="50px" align="center">
+                    하 단 영 역
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

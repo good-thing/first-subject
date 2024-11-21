@@ -1,0 +1,4 @@
+﻿<asp:Label runat="server" Font-Size="Medium" ForeColor="#669900"/>
+<asp:Label runat="server" Font-Size="Medium" ForeColor="Blue" SkinID="Blue"/>
+<asp:TextBox runat="server" BackColor="#EEFF99" BorderColor="#669900" BorderStyle="Dashed"/>
+<asp:Button runat="server" BackColor="#EEFF99" BorderColor="#669900" BorderStyle="Solid" BorderWidth="1px" Font-Size="X-Small" Height="25px"/>
